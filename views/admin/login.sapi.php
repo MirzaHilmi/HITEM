@@ -1,6 +1,6 @@
 <body>
-  <header class="bg-violet-300 flex flex-col items-center pt-12">
-    <div class="w-full max-w-[1033px] mt-12 max-md:max-w-full max-md:mt-10">
+  <header class="bg-violet-300 flex flex-col items-center pt-12 after:content-['']  after:block after:absolute bg-no-repeat bg-contain bg-bottom" style="background-image: url('/assets/vector-1.png');">
+    <div class="w-full max-w-[1033px] mt-12 max-md:max-w-full max-md:mt-10" >
       <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div class="flex flex-col items-stretch w-[51%] max-md:w-full max-md:ml-0">
           <div class="items-stretch flex gap-1.5 mt-14 max-md:mt-10">
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
+      <div class="text-violet-300 text-center text-4xl font-semibold leading-10 w-full items-stretch bg-[#401D77] self-stretch justify-center mt-52 px-5 py-20 max-md:max-w-full max-md:mt-10">“ A passion to search and find someone's beloved item ”</div>
     </div>
-    <div class="text-violet-300 text-center text-4xl font-semibold leading-10 w-full items-stretch bg-indigo-900 self-stretch justify-center mt-52 px-5 py-20 max-md:max-w-full max-md:mt-10"> “ A passion to search and find someone’s beloved item ” </div>
   </header>
 </body>
