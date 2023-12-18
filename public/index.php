@@ -14,6 +14,8 @@ $app = new Application();
 $app->router()->get('/admin/login', 'layouts/app>admin/login');
 $app->router()->get('/admin/reports', 'layouts/app>admin/reports');
 $app->router()->get('/admin/items', 'layouts/app>admin/items');
+$app->router()->get('/admin/founds', 'layouts/app>admin/founds');
+$app->router()->delete('/admin/founds', 'layouts/app>admin/founds');
 
 $app->router()->get('/', 'layouts/app>index');
 $app->router()->get('/contact', 'layouts/app>contact');
