@@ -9,7 +9,7 @@
                 <thead class="text-xl text-slate-950 font-bold uppercase">
                     <tr>
                         <th scope="col" class="px-6 py-3 w-[10%]">
-                            Owner
+                            Reporter
                         </th>
                         <th scope="col" class="px-6 py-3 w-[10%]">
                             Finder
