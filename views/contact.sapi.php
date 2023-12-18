@@ -1,8 +1,6 @@
 <body>
+  <?php require ROOT . '/views/components/navbar.sapi.php'?>
   <div class="bg-violet-100 flex flex-col items-stretch">
-
-    <?php require ROOT . '/views/components/navbar.sapi.php'?>
-
     <div class="justify-between w-full py-11 max-md:max-w-full max-md:pl-5">
       <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
         <div class="flex flex-col ml-24 items-stretch w-[48%] max-md:w-full max-md:ml-0">
@@ -77,46 +75,6 @@
         </div>
       </div>
     </div>
-    <div class="items-center bg-violet-100 flex w-full flex-col justify-center mt-12 px-16 py-12 max-md:max-w-full max-md:mt-10 max-md:px-5">
-      <div class="flex w-[794px] max-w-full flex-col items-stretch my-6">
-        <div class="items-stretch self-center flex gap-1.5">
-          <img loading="lazy" srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4e6a5b7e2cc1dd81b187beb16025f0d5f3c189ffe3012e5e35f6e22039431c0b?apiKey=f1a9489e42624277a4277c6751b4869b&" class="aspect-square object-contain object-center w-[52px] justify-center items-center overflow-hidden shrink-0 max-w-full" />
-          <div class="text-indigo-900 text-3xl font-bold leading-10 grow whitespace-nowrap self-start">
-            HITEM
-          </div>
-        </div>
-        <div class="items-stretch flex justify-between gap-1.5 mt-6 max-md:max-w-full max-md:flex-wrap">
-          <div class="text-indigo-900 text-xl font-semibold leading-6 grow whitespace-nowrap">
-            Homepage :
-          </div>
-          <div class="items-stretch flex gap-1 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-            <div class="text-indigo-900 text-xl font-medium leading-6 whitespace-nowrap">
-              Lost reports -
-            </div>
-            <div class="text-indigo-900 text-xl font-medium leading-6 w-[242px]">
-              Service informations -
-            </div>
-            <div class="text-indigo-900 text-xl font-medium leading-6">
-              Cookie policy -
-            </div>
-            <div class="text-indigo-900 text-xl font-medium leading-6 whitespace-nowrap">
-              Privacy policy
-            </div>
-          </div>
-        </div>
-        <div class="items-stretch self-center flex gap-1 mt-1 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-          <div class="text-indigo-900 text-xl font-medium leading-6 whitespace-nowrap">
-            Terms and conditions of site -
-          </div>
-          <div class="text-indigo-900 text-xl font-medium leading-6 grow shrink basis-auto">
-            Terms and condition of report -
-          </div>
-          <div class="text-indigo-900 text-xl font-medium leading-6 whitespace-nowrap">
-            Contact
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php require ROOT . '/views/components/footer.sapi.php'?>
   </div>
-
 </body>
