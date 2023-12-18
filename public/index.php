@@ -11,14 +11,14 @@ if ($env === false) {
 
 $app = new Application();
 
-$app->router()->get('/admin/login', 'admin/login');
-$app->router()->get('/admin/reports', 'admin/reports');
-$app->router()->get('/admin/items', 'admin/items');
+$app->router()->get('/admin/login', 'layouts/app>admin/login');
+$app->router()->get('/admin/reports', 'layouts/app>admin/reports');
+$app->router()->get('/admin/items', 'layouts/app>admin/items');
 
-$app->router()->get('/', 'index');
-$app->router()->get('/contact', 'contact');
-$app->router()->get('/about', 'about');
-$app->router()->get('/items', 'items');
-$app->router()->get('/form', 'form');
+$app->router()->get('/', 'layouts/app>index');
+$app->router()->get('/contact', 'layouts/app>contact');
+$app->router()->get('/about', 'layouts/app>about');
+$app->router()->get('/items', 'layouts/app>items');
+$app->router()->get('/form', 'layouts/app>form');
 
 $app->run();

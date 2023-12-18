@@ -1,6 +1,8 @@
 <?php
 namespace Saphpi\Core;
 
+define('ROOT', dirname(__DIR__));
+
 class Application {
     private static Application $app;
     private Router $router;

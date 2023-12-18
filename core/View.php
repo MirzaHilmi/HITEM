@@ -19,7 +19,7 @@ class View {
 
         $codeStr = substr("{$code}", 0, 1);
 
-        return $this->renderView("layouts/default>errors/{$codeStr}xx", [
+        return $this->renderView("layouts/app>errors/{$codeStr}xx", [
             'code'    => $code,
             'message' => $msg,
         ], 'Ooops.. there\'s something wrong');
@@ -38,7 +38,7 @@ class View {
 
     private function getLayout(string $name, string $title): string {
         ob_start();
-        @require_once Application::$ROOT_DIR . "/views/{$name}.sapi.php";
+        @require_once ROOT . "/views/{$name}.sapi.php";
         return ob_get_clean();
     }
 
@@ -47,7 +47,7 @@ class View {
             $$key = $value;
         }
         ob_start();
-        @require_once Application::$ROOT_DIR . "/views/{$name}.sapi.php";
+        @require_once ROOT . "/views/{$name}.sapi.php";
         return ob_get_clean();
     }
 }
